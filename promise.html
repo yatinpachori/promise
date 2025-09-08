@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Forever Promises to You, Bhavya 💍</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ffe0ec, #fff5f8);
+        color: #333;
+        text-align: center;
+      }
+      h1 {
+        margin: 30px 0 10px;
+        font-size: 2.5em;
+        color: #ff3366;
+      }
+      p.subtitle {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+        color: #666;
+      }
+      .promise-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0 20px;
+      }
+      .promise {
+        background: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        font-size: 1.1em;
+        color: #444;
+        transition: transform 0.3s;
+        word-wrap: break-word;
+      }
+      .promise:hover {
+        transform: scale(1.05);
+      }
+      .input-card {
+        background: #fff;
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        max-width: 500px;
+        width: 90%; /* ✅ keeps it responsive */
+        box-sizing: border-box;
+      }
+      textarea,
+      input[type="email"] {
+        width: 100%; /* ✅ fixes overflow */
+        padding: 15px;
+        margin: 10px 0;
+        border: 2px solid #ff99bb;
+        border-radius: 15px;
+        font-size: 1em;
+        outline: none;
+        resize: none; /* keeps textarea neat */
+        box-sizing: border-box;
+      }
+      button {
+        padding: 12px 25px;
+        font-size: 1.1em;
+        background: #ff3366;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      button:hover {
+        background: #ff0044;
+      }
+      footer {
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 1em;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Forever Promises to You, Bhavya 💍</h1>
+    <p class="subtitle">
+      These are the vows I live by… and one I want from you 💖
+    </p>
+
+    <div class="promise-container">
+      <div class="promise">
+        1. I promise to always love you endlessly, through every high and low.
+        💖
+      </div>
+      <div class="promise">
+        2. I promise to support your dreams and be your biggest cheerleader. 🌸
+      </div>
+      <div class="promise">
+        3. I promise to make you laugh when you feel like crying. 😘
+      </div>
+      <div class="promise">
+        4. I promise to be patient, understanding, and never let go of your
+        hand. 🤝
+      </div>
+      <div class="promise">
+        5. I promise to make you feel special every single day of our lives. ✨
+      </div>
+    </div>
+
+    <div class="input-card">
+      <h2>6th Promise… Your Turn 💌</h2>
+      <p>Write the promise you want me to keep forever:</p>
+      <form action="https://formspree.io/f/mblaqdkz" method="POST">
+        <textarea
+          name="6thPromise"
+          rows="4"
+          placeholder="Type your promise here..."
+          required
+        ></textarea>
+        <input
+          type="email"
+          name="_replyto"
+          placeholder="Your email (optional)"
+        />
+        <button type="submit">Send to Me 💕</button>
+      </form>
+    </div>
+
+    <footer>Made with endless love ❤️ for Bhavya</footer>
+  </body>
+</html>
